@@ -1,0 +1,49 @@
+body{
+    background-color: #30302e;
+    color: #ffffff;
+    font-family: 'Segoe UI';
+    /* Espaço interno */
+    padding: 20px;
+    /* entrelinhamento (leading) */
+    line-height: 1.6;
+}
+h1 {
+    color: #8cc9e4;
+    font-size: 32px;
+    text-align: center;
+    border-bottom: 3px solid #8cc9e4;
+    /* Espaçamento inferior */
+}
+/* div com classe */
+div.container {
+    background-color: #3a3a38;
+    padding: 20px;
+    border-radius: 10px;
+    /* margem para cada lado = margin: 20px 50px 100px 200px; */
+    /* margem para vertical e horizontal = margin: 20px 0;*/
+    margin: 20px 0;
+}
+ /* div com ID */
+div#exemplo{
+    border: 2px solid #8cc9e4;
+    padding: 15px;
+    margin-top: 20px;
+
+}
+/* O efeito de Hover é aplicado quando o mouse passe sobre um elemento */
+button#btnHover{
+    width: 300px;
+    height: 60px;
+    border: 2px solid #8cc9e4;
+    background-color: #3a3a38;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    /* Controlando as transições */
+    transition: all 0.3s ease;
+}
+
+button#btnHover:hover{
+    background-color: #8cc9e4;
+    transform: scale(0.98);
+}
