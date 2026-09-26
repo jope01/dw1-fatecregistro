@@ -1,72 +1,76 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>Cadastro de Aluno – DSM</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cadastro de Aluno - DSM</title>
+  </head>
+  <body>
+    <h1>Cadastro de Aluno - DSM</h1>
 
-    <h1>Cadastro de Aluno – DSM</h1>
-
-    <p>Este formulário tem como finalidade realizar o cadastro de alunos do curso de Desenvolvimento de Software Multiplataforma ( DSM ).</p>
+    <p>
+      Este formulário tem como finalidade realizar o cadastro de alunos do curso
+      de Desenvolvimento de Software Multiplataforma ( DSM ).
+    </p>
 
     <form action="#" method="POST">
-
-        <fieldset>
-            <legend>Dados Pessoais</legend>
-
-            <p>
-                <label for="nome">Nome completo:</label>
-                <input type="text" id="nome" name="nome" required>
-            </p>
-
-            <p>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-            </p>
-
-            <p>
-                <label for="data-nascimento">Data de nascimento:</label>
-                <input type="date" id="data-nascimento" name="data-nascimento">
-            </p>
-        </fieldset>
-
-        <fieldset>
-            <legend>Dados Acadêmicos</legend>
-
-            <p>
-                <label for="curso">Curso:</label>
-                <select id="curso" name="curso">
-                    <option value="dsm">DSM</option>
-                    <option value="ads">ADS</option>
-                    <option value="outro">Outro</option>
-                </select>
-            </p>
-
-            <p>Período:</p>
-
-            <p>
-                <input type="radio" id="manha" name="periodo" value="manha">
-                <label for="manha">Manhã</label>
-            </p>
-
-            <p>
-                <input type="radio" id="noite" name="periodo" value="noite">
-                <label for="noite">Noite</label>
-            </p>
-
-            <p>
-                <label for="observacoes">Observações:</label><br>
-                <textarea id="observacoes" name="observacoes" rows="5" cols="40"></textarea>
-            </p>
-        </fieldset>
+      <fieldset>
+        <legend>Dados Pessoais</legend>
 
         <p>
-            <button type="submit">Enviar</button>
-            <button type="reset">Limpar</button>
+          <label for="nome">Nome completo:</label>
+          <input type="text" id="nome" name="nome" required />
         </p>
 
-    </form>
+        <p>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </p>
 
-</body>
+        <p>
+          <label for="data-nascimento">Data de nascimento:</label>
+          <input type="date" id="data-nascimento" name="data-nascimento" />
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Dados Acadêmicos</legend>
+
+        <p>
+          <label for="curso">Curso:</label>
+          <select id="curso" name="curso">
+            <option value="dsm">DSM</option>
+            <option value="ads">ADS</option>
+            <option value="outro">Outro</option>
+          </select>
+        </p>
+
+        <p>Período:</p>
+
+        <p>
+          <input type="radio" id="manha" name="periodo" value="manha" />
+          <label for="manha">Manhã</label>
+        </p>
+
+        <p>
+          <input type="radio" id="noite" name="periodo" value="noite" />
+          <label for="noite">Noite</label>
+        </p>
+
+        <p>
+          <label for="observacoes">Observações:</label><br />
+          <textarea
+            id="observacoes"
+            name="observacoes"
+            rows="5"
+            cols="40"
+          ></textarea>
+        </p>
+      </fieldset>
+
+      <p>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+      </p>
+    </form>
+  </body>
 </html>
