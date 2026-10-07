@@ -1,0 +1,19 @@
+div.container {
+    display: flex;
+    background-color: #30302e;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+}
+
+div.card {
+    background-color: #8cc9e4;
+    color: #30302e;
+    padding: 20px;
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    
+}
