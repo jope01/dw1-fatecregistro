@@ -1,0 +1,65 @@
+/* POSITIONS */
+div.caixa {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    background-color: #ccc;
+    text-align: center;
+    line-height: 150px;
+}
+/* STATIC */
+div.static {
+    position: static;
+    background-color: #8cc9e4;
+    top: 100px;
+    left: 400px;
+}
+/* RELATIVE */
+div.relative {
+    position: relative;
+    background-color: #4caf50;
+    top: 50px;
+    left: 200px;
+    z-index: 2;
+}
+/* container/ */
+div.container {
+    position: relative;
+    width: 300px;
+    height: 250px;
+    margin: 20px;
+    border: 1px dashed black;
+    background-color: #f0f0f0;
+
+}
+/* Absolute */
+div.absolute {
+    position: absolute;
+    margin: 0;
+    background-color: #ff6347;
+    top: -200px;
+    left: 60px;
+    z-index: 3;
+}
+/* FIXED */
+div.fixed
+{
+    position:fixed;
+    background-color: #9c27b0;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+    z-index: 4;
+}
+/* STICKY */
+div.Espaço {
+    height: 900px;
+    background-color: lightcyan;
+}
+ 
+div.sticky {
+    position: sticky;
+    background-color: #ff634F;
+    height: 100px;
+    top: 0;
+}

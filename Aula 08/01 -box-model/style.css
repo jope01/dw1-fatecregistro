@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    /* Define que as dimencoes finais do elemento leve em consideração width/height: border-box */
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background-color:black;
+    color: aliceblue;
+}
+
+/* BOX-MODEL 
+O box model é composto por:
+-content (conteudo )
+-padding (espaço interno )
+-Border (Borda)
+-Margin (espaço externo)*/
+
+div.caixa {
+    /* Content */
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    color: black;
+    /* padding */
+    padding:20px;
+    border: 5px solid blue;
+    margin:30px;
+    text-align: center;
+
+
+}
+
+h1 {
+margin: 30px;
+}
