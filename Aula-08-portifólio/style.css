@@ -8,13 +8,13 @@ body {
         background-color:#1d546dd7;
         color: white; 
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        height: 100px;
+        height: 150px;
         flex-wrap: wrap;
         margin:0px;
         position: sticky;
         padding-top: 2rem;
         text-align: center;
-        ;
+        
 
 
        
@@ -38,6 +38,7 @@ body {
     border-left: 4px solid #041c36;
     background-color:#232327;
     text-align:left;
+    list-style: none;
     
 }
 .contatos {

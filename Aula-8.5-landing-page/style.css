@@ -80,7 +80,7 @@ body {
 .btn-primary {
   background-color: #d4a574;
   color: white;
-  padding: 1rem;
+  padding: 1rem 2rem;
   border: none;
   border-radius: 5px;
   font-size: 1.1rem;
@@ -106,3 +106,122 @@ body {
     gap: 2rem;
     flex-wrap: wrap;
 }
+ 
+.card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3;
+    flex: 1;
+    min-width: 280px;
+    max-width: 350px;
+}
+
+.card:hover {
+    transform: translatey(-8px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0,0.15);
+}
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+
+}
+.card-content {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
+.card-content h3 {
+    color: #2c1810;
+    font-size: 1.5rem;
+
+}
+.card-content p {
+    color: #666;
+    flex-grow: 1;
+}
+.price {
+    font-size: 1.5rem;
+    color: #d4a574;
+    font-weight: bold;
+}
+
+/* SEÇÃO DE SOBRE */
+.sobre {
+    padding: 4rem 0;
+}
+ .sobre-flex {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+
+ }
+ .sobre-imagem {
+    flex: 1;
+ }
+ .sobre-imagem img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+ }
+ .sobre-texto {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+ }
+ .sobre-texto h2 {
+    font-size: 2.5rem;
+    color: #2c1810;
+ }
+  .sobre-texto p {
+    color: #666;
+    font-size: 1.1rem;
+  }
+  .beneficios {
+    list-style: none;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .beneficios  li {
+    color: #2c1810;
+    font-size: 1.1rem;
+  }
+  /* footer */
+  .footer {
+    background-color: #2c1810;
+    color: white;
+    padding: 3rem 0 1rem;
+  }
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+  }
+  .footer-content {
+    flex: 1;
+    min-width: 200px;
+  }
+  .footer-section h4 {
+    margin-bottom: 1rem;
+    color: #d4a574;
+
+  }
+  .footer-bottom {
+    text-align: center;
+    padding-top: 2rem;
+    border-top: 1px solid #4a3226;
+  }
+  .footer-section a {
+    text-decoration: none;
+    color: white;
+  }
