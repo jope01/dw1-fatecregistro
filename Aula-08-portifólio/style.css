@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header  {
+
+        background-color:#1d546dd7;
+        color: white; 
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        height: 100px;
+        flex-wrap: wrap;
+        margin:0px;
+        position: sticky;
+        padding-top: 2rem;
+        text-align: center;
+        ;
+
+
+       
+    } 
+    
+    .body {
+        background-color: #3e4141;
+        color: white;
+        text-align: center;
+    }
+    .lista-sobre {
+    background-color: #1f1f1f;
+    border-left: 4px solid #041c36;
+    padding: 15px 15px 15px 40px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.habilidades {
+
+    border-left: 4px solid #041c36;
+    background-color:#232327;
+    text-align:left;
+    
+}
+.contatos {
+    border-left: 4px solid #041c36;
+    background-color:#232327;
+    text-align:left;
+    font-style: italic;
+}

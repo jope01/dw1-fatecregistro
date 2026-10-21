@@ -1,0 +1,108 @@
+/* CSS */
+/* Seletor global */
+* {
+  margin: 0;
+  padding: 0;
+  /* Alterando o tamanho final dos elementos para contar a partit da borda */
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.conteiner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.header {
+  background-color: #2c1818;
+  color: white;
+  padding: 1rem 0;
+  position: static;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 5px rgba(0, 0, 0);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.menu {
+  display: flex;
+  /* Espaçamento entre os elementos da flexbox */
+  /* 2rem é equivalente a 32 pixels */
+  gap: 2rem;
+}
+.menu a {
+  color: white;
+  /* remove o sublinhado dos links */
+  text-decoration: none;
+  transition: color 0.5s;
+}
+.menu a:hover {
+  color: #d4a574;
+}
+/* hero section */
+.hero {
+  background:
+    linear-gradient(rgba(44, 24, 26, 0.7), rgba(44, 24, 16, 0.3)),
+    url("https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1200&h=600&fit=crop");
+  background-size: cover;
+  /* a image, cobre todo o espaço (back.. -size) */
+  background-position: center;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  color: white;
+}
+
+.horo-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.hero-content p {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+.btn-primary {
+  background-color: #d4a574;
+  color: white;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+.btn-primary:hover {
+  background-color: #a78453;
+}
+.produtos {
+    padding: 4rem 0 ;
+    background-color: #f9f9f9;
+}
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #2c1810;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
