@@ -225,3 +225,34 @@ body {
     text-decoration: none;
     color: white;
   }
+
+  @media (max-width: 760px) {
+    .logo {
+      font-size: 1rem;
+   
+    }
+    .menu {
+      gap: 0.75rem;
+    }
+
+     .horo-content h1 {
+      font-size: 2rem; 
+     }
+     .hero-content p {
+      font-size: 1rem;
+     }
+
+     .card {
+      flex-direction: column;
+      align-items: center;
+     }
+
+     .sobre-flex {
+      flex-direction: column;
+     }
+     .footer-content {
+      flex-direction: column;
+     }
+  }
+
+  
